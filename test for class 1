@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <title>Syringe animation</title>
   	<script type="module" 
-src="https://github.com/meb12345/mysyringe/blob/main/syringe.glb"></script>
+src=""syringe.glb"></script>
 
 </head>
 
@@ -14,7 +14,7 @@ height: 800px;
 </style>
   <body>
 
-<model-viewer src="syringe.glb" 
+<https://github.com/meb12345/mysyringe/blob/main/syringe.glb" 
 autoplay
 camera-controls> 
 </model-viewer>
