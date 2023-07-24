@@ -1,25 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Syringe animation</title>
-<script type="module" 
-src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+  <title>Page Title</title>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+  <style>
+    model-viewer {
+      width: 800px;
+      height: 600px;
+    }
+  </style>
 </head>
-
-<style> 
-model-viewer {
-width: 800px;
-height: 800px;
-}
-</style>
-  <body>
-
-<model-viewer src="https://nolankucd.github.io/mysyringe_debug/mysyringe.glb"
-camera-controls
-shadow-intensity="1" autoplay> </model-viewer>
-
-
-
- </body>
+<body>
+  <h1>The syringe</h1>
+  <p>I’ve animated my syringe<p>
+  <model-viewer
+src="/d2l/common/viewFile.d2lfile/Content/L2NvbnRlbnQvZW5mb3JjZWQvMjMwNzctbm9sYW5rX3Nib3gvR0xCX2ZpbGVzL3N5cmluZ2UuZ2xi/syringe.glb?ou=23077"
+  camera-controls
+  autoplay>
+</model-viewer>
+</body>
 </html>
+
