@@ -14,7 +14,8 @@ height: 800px;
 </style>
   <body>
 
-<https://github.com/meb12345/mysyringe/blob/main/syringe.glb" 
+<model-viewer>
+src="https://github.com/meb12345/mysyringe/blob/main/syringe.glb" 
 autoplay
 camera-controls> 
 </model-viewer>
